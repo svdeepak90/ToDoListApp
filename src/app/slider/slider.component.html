@@ -1,0 +1,19 @@
+<div class="slider-container">
+    <div class="slider">
+        <div class="slide" *ngFor="let slide of slides; let i = index" [class.active]="i === currentSlide">
+            <!-- <img [src]="slide.image" alt="Slide Image"> -->
+            <div class="slide-content">
+                <h2>{{ slide.title }}</h2>
+                <p>{{ slide.description }}</p>
+            </div>
+        </div>
+    </div>
+    <button (click)="prevSlide()" class="nav prev">❮ U+276e</button>
+    <button (click)="nextSlide()" class="nav next">❯</button>
+</div>
+<div class="gugBId" style="position:relative">
+    <a href="https://hotstar.onelink.me/UsKp/w7786r1x" target="_blank">
+        <img class="zgXvsf Lvew0" src="//ssl.gstatic.com/onebox/media/sports/videos/vita/caXrOS6naf-iv69M_192x108.jpg"
+            alt="">
+        <span class="zw6uX UEecEe BBT8Dd oaXs5d" aria-hidden="true">► 11:00</span></a>
+</div>

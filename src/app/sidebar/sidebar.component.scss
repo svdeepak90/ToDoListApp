@@ -1,0 +1,50 @@
+.sidebar {
+    // flex: 1;
+    background-color: #2c3e50;
+    color: #fff;
+    width: 250px;
+    height: 100%;
+    flex: 0 0 auto;
+    /* Prevent sidebar from growing or shrinking */
+    position: relative;
+    /* Relative position to container */
+    z-index: 1;
+    /* Ensure sidebar appears above main content */
+}
+
+.fixed {
+    position: fixed;
+    /* Fix sidebar position on scroll */
+    top: 0;
+    /* Position fixed to top of viewport */
+    left: 0;
+    /* Keep sidebar aligned to left */
+    width: 250px;
+    /* Maintain sidebar width */
+    z-index: 1;
+    /* Ensure sidebar stays above main content */
+}
+
+.sidebar.collapsed {
+    width: 60px;
+}
+
+.sidebar-content {
+    padding: 20px;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.toggle-btn {
+    background: none;
+    border: 1px solid white;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+    text-align: left;
+}
+
+.sidebar.collapsed .sidebar-content {
+    opacity: 0;
+}

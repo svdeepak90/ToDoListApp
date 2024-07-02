@@ -1,0 +1,10 @@
+.scroll-container {
+    height: 400px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+  }
+  
+  .scroll-container div {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }

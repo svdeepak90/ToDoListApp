@@ -1,0 +1,6 @@
+<!-- src/app/infinite-scroll/infinite-scroll.component.html -->
+<div class="scroll-container" (scroll)="onScroll($event)">
+    <div *ngFor="let item of items">
+      <p>{{ item }}</p>
+    </div>
+  </div>

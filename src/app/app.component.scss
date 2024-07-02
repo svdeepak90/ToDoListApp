@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+app-header {
+    background-color: bisque;
+    border-bottom: 2px solid #ffbb00;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    // height: 100%;
+    
+}
+.sub-container-flex {
+    display: flex;
+    // justify-content: center;
+    // height: 100%;
+    // align-items: center;
+}
+.main {
+    flex: 1;
+    background-color: #e0f7fa;
+}
