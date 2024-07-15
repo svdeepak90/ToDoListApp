@@ -111,13 +111,12 @@ export class TrackerComponent implements OnInit {
     return task;
   }
   onSendMail(list) {
-    console.log(list);
-    // this.sendEmail(list);
+    this.sendEmail(list);
   }
   sendEmail(list?): void {
     const emailData = {
-      recipient: 'deepak.sv.dev@gmail.com',
-      subject: 'Testing Email',
+      recipient: 'xxxx@xxxx.xxx',
+      subject: 'Pending/Completed Tasks',
       reportData: list ? list : this.trackerList
     };
 

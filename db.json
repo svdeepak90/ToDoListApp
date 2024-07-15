@@ -1,5 +1,55 @@
 {
-  "tasks": [],
+  "tasks": [
+    {
+      "id": "7140b5df-0d25-4744-a75b-230eb0b59cf6",
+      "taskName": "App creation done",
+      "type": "Work",
+      "date": "2024-07-15",
+      "status": "completed"
+    },
+    {
+      "id": "57ad9bcd-7bc2-4f37-a377-f95e66b995f8",
+      "taskName": "Git Upload",
+      "type": "Git",
+      "date": "2024-07-15",
+      "status": "pending"
+    },
+    {
+      "id": "585105ee-2af3-4660-a2ed-d0c98f85fefc",
+      "taskName": "Interview scheduled",
+      "type": "Work",
+      "date": "2024-07-16",
+      "status": "pending"
+    },
+    {
+      "id": "5754b07d-f023-4720-98bd-7c806c545c9c",
+      "taskName": "Apply for jobs",
+      "type": "Job",
+      "date": "2024-07-15",
+      "status": "pending"
+    },
+    {
+      "id": "c3615467-2898-4d97-95b2-0874d086acda",
+      "taskName": "Pick Up delivery from courier ",
+      "type": "Courier",
+      "date": "2024-07-17",
+      "status": "pending"
+    },
+    {
+      "id": "5c86a491-4cf0-49f3-9621-819bddb79eee",
+      "taskName": "Session with Alan on Azure DevOps",
+      "type": "Study",
+      "date": "2024-07-18",
+      "status": "pending"
+    },
+    {
+      "id": "9753ceb9-6f61-4986-b285-ca6904e43f46",
+      "taskName": "Remind Kaleel",
+      "type": "Reminder",
+      "date": "2024-07-15",
+      "status": "pending"
+    }
+  ],
   "users": [
     {
       "userName": "user1",

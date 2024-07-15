@@ -1,8 +1,6 @@
 import { Component, computed, EventEmitter, inject, input, model, Output } from '@angular/core';
 import { TrackerList } from '../model/tracker.model';
-import { TrackerService } from 'src/app/services/tracker-service.service';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-add-tracker-form',
@@ -11,9 +9,6 @@ import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 })
 export class AddTrackerFormComponent {
   taskForm: FormGroup;
-  readonly dialogRef = inject(MatDialogRef<AddTrackerFormComponent>);
-  readonly data = inject<TrackerList>(MAT_DIALOG_DATA);
-  readonly taskData = model(this.data);
   @Output() addTask = new EventEmitter();
   task = input.required({
     transform: (value: TrackerList | null) => {
