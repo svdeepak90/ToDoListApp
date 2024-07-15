@@ -1,0 +1,35 @@
+<div class="tracker">
+    <div class="container">
+        <div class="header">
+            <h1>TO-DO List</h1>
+            @if(!trackerService.addForm()) {
+                <button (click)="onAddItem()">Add</button>
+            } @else {
+                <button (click)="onAddItem()">Close</button>
+            }
+        </div>
+        @if(trackerService.addForm()) {
+            <app-add-tracker-form (addTask)="onAddTask($event)" [task]="taskItem()"></app-add-tracker-form>
+        }
+    </div>
+    <!-- <button (click)="sendEmail()">Send Mail</button> -->
+    @if(trackerList.length > 0) {
+    <div>
+        <div class="trackerList">
+            <div class="trackHeader">
+                @if(deletedItem?.id) {
+                    <div class="undo-delete" (click)="undoDeleteItem()">Undo Delete</div>
+                }
+            </div>
+            <app-task-list [label]="'Pending Tasks'" (editTask)="onEditTask($event)" (sendMailEvent)="onSendMail(pendingTaskList)"
+                (completeTask)="onCompleteTask($event)" (removeTask)="onRemoveTask($event)"
+                [taskList]="{'taskList':pendingTaskList,'label': 'pending'}"></app-task-list>
+
+            <app-task-list [label]="'Completed Tasks'" (editTask)="onEditTask($event)" (sendMailEvent)="onSendMail(completedTaskList)"
+                (completeTask)="onCompleteTask($event)" (removeTask)="onRemoveTask($event)"
+                [taskList]="{'taskList':completedTaskList,'label': 'completed'}"></app-task-list>
+
+        </div>
+    </div>
+    }
+</div>

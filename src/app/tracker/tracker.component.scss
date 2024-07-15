@@ -1,0 +1,137 @@
+.tracker {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    // height: 100vh; 
+    flex-direction: column;
+}
+
+.container {
+    background-color: #82bacb;
+    padding: 20px;
+    border: 2px solid #cac2dd;
+    border-radius: 8px 8px 0 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+}
+
+.container h1 {
+    text-align: center;
+    color: white;
+    // background-color: #98A892;
+    padding: 10px;
+    border-radius: 8px;
+    flex: 1;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #666ec9;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header button {
+    background-color: #ADFF2F;
+    color: #000;
+    border: 1px solid #32CD32;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.header button:hover {
+    background-color: #90EE90;
+    color: #003cff;
+}
+
+@media (max-width: 444px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+.trackerList, .mat-container {
+    width: 600px;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+svg {
+    cursor: pointer;
+}
+
+.undo-delete {
+    // text-align: right;
+    text-decoration: underline;
+    font-size: 0.72em;
+    color: darkviolet;
+    margin-top: 10px;
+    // align-self: self-end;
+}
+
+.trackHeader {
+    text-align: right;
+//     display: flex;
+//     justify-content: center;
+}
+
+// .trackHeader h1 {
+//     flex: 1;
+// }
+
+.pendingTask {
+    margin: auto;
+}
+

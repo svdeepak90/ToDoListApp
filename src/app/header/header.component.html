@@ -1,1 +1,4 @@
-<p>header works!</p>
+<div *ngIf="user$ | async as user" class="main-header">
+    <span>Welcome {{user.userName}}, Stay Organized with Your TO-DO List</span>
+    <button class="logOut" (click)="logout()">Log Out</button>
+</div>
