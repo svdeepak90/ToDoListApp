@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { User } from '../user.model';
-import { AuthService } from 'src/app/services/auth.service';
-import { Router } from '@angular/router';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
 import { Store } from '@ngrx/store';
-import { AuthState } from 'src/app/reducers/auth.reducer';
 import { login } from 'src/app/reducers/auth.actions';
+import { AuthState } from 'src/app/reducers/auth.reducer';
+import { AuthService } from 'src/app/services/auth.service';
+import { User } from '../user.model';
 
 @Component({
   selector: 'app-login',

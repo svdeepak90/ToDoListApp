@@ -1,6 +1,4 @@
-import { Component, NgZone, OnInit, computed, signal } from '@angular/core';
-import { DataService } from './services/data-service.service';
-import { Observable, Subscription } from 'rxjs';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',

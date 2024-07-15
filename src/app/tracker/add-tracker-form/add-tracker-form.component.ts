@@ -1,6 +1,6 @@
-import { Component, computed, EventEmitter, inject, input, model, Output } from '@angular/core';
-import { TrackerList } from '../model/tracker.model';
+import { Component, computed, EventEmitter, input, Output } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { TrackerList } from '../model/tracker.model';
 
 @Component({
   selector: 'app-add-tracker-form',

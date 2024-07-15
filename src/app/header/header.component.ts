@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import { AuthService } from '../services/auth.service';
 import { Router } from '@angular/router';
 import { Store } from '@ngrx/store';
-import { AuthState } from '../reducers/auth.reducer';
 import { Observable } from 'rxjs';
-import { User } from '../user/user.model';
-import { selectUser } from '../reducers/auth.selectors';
 import { logout } from '../reducers/auth.actions';
+import { AuthState } from '../reducers/auth.reducer';
+import { selectUser } from '../reducers/auth.selectors';
+import { AuthService } from '../services/auth.service';
+import { User } from '../user/user.model';
 
 @Component({
   selector: 'app-header',

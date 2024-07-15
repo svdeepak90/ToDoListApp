@@ -1,7 +1,6 @@
-import { Component, inject, OnInit, signal } from '@angular/core';
+import { Component, OnInit, signal } from '@angular/core';
 import { TrackerService } from '../services/tracker-service.service';
 import { TrackerList } from './model/tracker.model';
-import { AddTrackerFormComponent } from './add-tracker-form/add-tracker-form.component';
 
 @Component({
   selector: 'app-tracker',
