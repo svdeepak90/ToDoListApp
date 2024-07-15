@@ -1,4 +1,4 @@
-# Angular 17 ToDO-List project: CRUD with Json-server
+# Angular 17 AuthGuard protected TODO-List project: CRUD with Json-server
 
 Created Login Page to view the to-do page after logged in
 
