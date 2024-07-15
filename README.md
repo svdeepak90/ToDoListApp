@@ -1,27 +1,21 @@
-# Learning
+# Angular 17 ToDO-List project: CRUD with Json-server
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.1.
+Created Login Page to view the to-do page after logged in
+![image](https://github.com/user-attachments/assets/6b424b8b-18c0-429f-ac83-9af308e38628)
 
-## Development server
+Once Logged In, user can able to see list of tasks completed/pending.
+Table created using angular material(mat-table)
+![image](https://github.com/user-attachments/assets/d21989d5-9bfc-44f8-b1f3-3aa187523306)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+And pagination using mat-table in Angular Material
+![image](https://github.com/user-attachments/assets/8a9b5c1a-1f06-46ce-8055-eddcc8cb5aba)
 
-## Code scaffolding
+And date sort too using mat-table in angular material
+![image](https://github.com/user-attachments/assets/6bf9d39a-dbc3-4de8-ad8c-3299d089fd77)
+![image](https://github.com/user-attachments/assets/99ba9f2c-4e24-4cf9-a5e8-5c6eff447703)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Task can be updated/deleted from the action column using svg icons
+![image](https://github.com/user-attachments/assets/a9c72374-b68d-438a-842e-5e001bfb8176)
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Send task report to mail done with node js with mailgun server configuration
