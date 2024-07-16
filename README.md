@@ -16,7 +16,7 @@ And date sort too using mat-table in angular material
 ![image](https://github.com/user-attachments/assets/6bf9d39a-dbc3-4de8-ad8c-3299d089fd77)
 ![image](https://github.com/user-attachments/assets/99ba9f2c-4e24-4cf9-a5e8-5c6eff447703)
 
-Task can be updated/deleted from the action column using svg icons
+Task can be updated/deleted from the action column using svg icons which is configured with json-server APIs
 ![image](https://github.com/user-attachments/assets/a9c72374-b68d-438a-842e-5e001bfb8176)
 
 New task can be added by clicking add button and reactive form will be visible to input the task details
